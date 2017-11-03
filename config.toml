@@ -78,20 +78,26 @@ tag = "tags"
 page = "/:slug/"
 
 [[menu.main]]
-name = "GitHub"
+name = "Home"
 weight = 1
+identifier = "home"
+url = "https://dragonite.network"
+
+[[menu.main]]
+name = "GitHub"
+weight = 2
 identifier = "repository"
 url = "https://github.com/dragonite-network/dragonite-java"
 
 [[menu.main]]
 name = "Wiki"
-weight = 2
+weight = 3
 identifier = "wiki"
 url = "https://github.com/dragonite-network/dragonite-java/wiki"
 
 [[menu.main]]
 name = "Downloads"
-weight = 3
+weight = 4
 identifier = "downloads"
 url = "https://github.com/dragonite-network/dragonite-java/releases"
 
