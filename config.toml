@@ -1,0 +1,106 @@
+publishDir = "docs"
+
+baseURL = "https://dragonite.network"
+title = "Dragonite"
+# for smart copyright line, leave this blank and check [params.copyright]
+copyright = ""
+
+theme = "minimo"
+
+disqusShortname = ""
+googleAnalytics = ""
+
+Paginate = 5
+preserveTaxonomyNames = true
+
+enableRobotsTXT = true # generate robots.txt
+
+# Syntax Highlighting ( https://gohugo.io/content-management/syntax-highlighting/ )
+pygmentsCodefences = true
+
+# Missing translations will default to this content language
+defaultContentLanguage = "en"
+
+[params.info]
+description = "A reliable UDP protocol highly optimized for lossy and unstable networks."
+title404 = "Nothing's here!"
+
+[params.assets]
+favicon = "favicon.ico"
+customCSS = ["css/custom.css"]
+customJS = ["js/custom.js"]
+gopher = "" # used in 404 template ( Generator: https://gopherize.me )
+
+[params.copyright]
+prefix = ""
+holder = "The Dragonite Open Source Project"
+startYear = "2016"
+suffix = ""
+
+[params.settings]
+# date & time format: https://golang.org/pkg/time/
+dateFormat = "2006, Jan 02"
+listDateFormat = "2006, Jan 02"
+hideEntryNavigation = ["page"] # boolean / array of sections
+hideSocialMenu = false
+showReadingTime = true
+
+[params.opengraph.facebook]
+admins = [] # array of Facebook IDs
+appID = ""
+pageID = ""
+
+[params.opengraph.twitter]
+page = "" # Twitter page username
+
+[params.seo]
+# Title Separator: - – — · • * ⋆ | ~ « » < >
+titleSeparator = "•"
+
+[params.social]
+codepen = "MunifTanjim"
+email = "support@dragonite.network"
+facebook = "MunifTanjim"
+github = "dragonite-network"
+instagram = "MunifTanjim"
+linkedin = "muniftanjim"
+twitter = "MunifTanjim"
+
+[params.social.config]
+platforms = ["github","email"]
+
+[taxonomies]
+author = "authors"
+category = "categories"
+tag = "tags"
+
+[permalinks]
+page = "/:slug/"
+
+[[menu.main]]
+name = "GitHub"
+weight = 1
+identifier = "repository"
+url = "https://github.com/dragonite-network/dragonite-java"
+
+[[menu.main]]
+name = "Wiki"
+weight = 2
+identifier = "wiki"
+url = "https://github.com/dragonite-network/dragonite-java/wiki"
+
+[[menu.main]]
+name = "Downloads"
+weight = 3
+identifier = "downloads"
+url = "https://github.com/dragonite-network/dragonite-java/releases"
+
+[blackfriday]
+hrefTargetBlank = true
+
+[languages]
+# edit this block for your own language
+[languages.en]
+lang = "en"
+languageName = "English"
+weight = 1

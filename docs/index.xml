@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes" ?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dragonite</title>
+    <link>https://dragonite.network/</link>
+    <description>Recent content on Dragonite</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <lastBuildDate>Thu, 02 Nov 2017 20:22:30 -0700</lastBuildDate>
+    
+	<atom:link href="https://dragonite.network/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Our new website is now online!</title>
+      <link>https://dragonite.network/posts/welcome/</link>
+      <pubDate>Thu, 02 Nov 2017 20:22:30 -0700</pubDate>
+      
+      <guid>https://dragonite.network/posts/welcome/</guid>
+      <description>We will post more about the progress and plans for our project here.
+Stay tuned :)</description>
+    </item>
+    
+  </channel>
+</rss>
